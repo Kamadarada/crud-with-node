@@ -1,7 +1,7 @@
 <h1 align="center">Simple CRUD with Node.js and MongoDB</h1>
 
 <p align="center">
-  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fnorthflank.com%2Fguides%2Fconnecting-to-a-mongo-db-database-using-node-js&psig=AOvVaw02EOCDzboQOGUdqyAJMxmX&ust=1695170315669000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCKi5t9W3tYEDFQAAAAAdAAAAABAE" alt="Project Logo">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" alt="Project Logo">
 </p>
 
 <p align="center">
