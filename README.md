@@ -1,7 +1,10 @@
 <h1 align="center">Simple CRUD with Node.js and MongoDB</h1>
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" alt="Project Logo">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
+
+
 </p>
 
 <p align="center">
