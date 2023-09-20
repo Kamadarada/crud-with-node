@@ -22,7 +22,24 @@ app.get('/livros', async (req,res)=>{
     res.status(200).json(listaLivros)
 })
 
+app.get('/livros/:id',async (req,res)=>{
+    const livroId = (req.params.id)
+    const getLivroById = await livro.findById(livroId)
+    res.status(200).json(getLivroById)
+})
 
+app.post('/livros',async(req,res)=>{
+    const livroToCreate = req.body
+    livro.create(livroToCreate)
+    res.status(201).json(livroToCreate)
+})
+
+app.delete('/livros/:id', async(req,res)=>{
+    const livroToDelete = await livro.findById(req.params.id)
+    await livro.deleteOne(livroToDelete)
+    const listaLivros = await livro.find({});
+    res.status(200).json(listaLivros);
+})
 
 
 
